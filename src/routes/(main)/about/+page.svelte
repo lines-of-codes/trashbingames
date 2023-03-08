@@ -55,8 +55,4 @@
   main > p {
     height: 25vh;
   }
-  
-  #footercontainer {
-    margin: 10vw;
-  }
 </style>

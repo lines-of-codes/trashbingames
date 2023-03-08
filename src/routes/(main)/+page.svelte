@@ -24,14 +24,8 @@
     padding: 10vw;
   }
   
-  section#ending {
-    background: linear-gradient(to bottom, #000000, #434343);
-    text-align: center;
-    padding: 30px;
-  }
-  
   #watchtower {
-    background: no-repeat url("images/WatchtowerScreenshot.png");
+    background: no-repeat url("/images/WatchtowerScreenshot.png");
     background-size: cover;
     background-position: center;
     text-align: left;

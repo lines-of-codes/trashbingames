@@ -14,7 +14,7 @@
       <div class="subtitle">GameCreator#8053</div>
     </div>
     <div class="social">
-      <a href="https://twitter.com/trashbin_trash" target="_blank">
+      <a href="https://twitter.com/trashbin_trash" target="_blank" rel="noreferrer">
         <h2>Twitter</h2>
         <div class="subtitle">@trashbin_trash</div>
       </a>

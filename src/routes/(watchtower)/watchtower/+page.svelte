@@ -42,7 +42,7 @@ main section {
 }
 
 #introbanner {
-  background: no-repeat url("images/WatchtowerNightScreenshot.png");
+  background: no-repeat url("/images/WatchtowerNightScreenshot.png");
   align-items: center;
 }
 
@@ -54,7 +54,7 @@ main section {
   position: absolute;
   top: 0;
   left: 0;
-  background: no-repeat url("images/WatchtowerNationalParkScreenshot.png");
+  background: no-repeat url("/images/WatchtowerNationalParkScreenshot.png");
   background-size: cover;
   background-position: center;
   filter: blur(5px) brightness(0.5);
@@ -95,7 +95,7 @@ main section {
 }
 
 #download {
-  background: no-repeat url("images/WatchtowerWatchtowerScreenshot.png");
+  background: no-repeat url("/images/WatchtowerWatchtowerScreenshot.png");
   align-items: center;
   padding: 0 10vw 0 10vw;
 }
