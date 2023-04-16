@@ -6,8 +6,6 @@ export let titleFont = "Staatliches, Inter, sans-serif";
   <h2 class="studiotitle" style={`font-family: ${titleFont};`}>Trashbin Games</h2>
   <div id="footerelements">
     <a href="/">Home</a>
-    <a href="#">Games</a>
-    <a href="#">Join us</a>
     <a href="/contact">Contact</a>
     <a href="/about">About</a>
   </div>

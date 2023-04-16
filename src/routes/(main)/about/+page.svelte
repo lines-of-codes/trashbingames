@@ -33,13 +33,13 @@
   :global(body) {
     font-family: Inter, sans-serif;
     margin: 0;
-    background: no-repeat linear-gradient(#434343, #000000);
     color: white;
     min-height: 90vh;
     text-align: center;
   }
   
   header {
+    background: linear-gradient(black, #434343);
     font-family: Staatliches, Inter, sans-serif;
     height: 25vh;
     display: flex;
@@ -49,7 +49,8 @@
   }
   
   main {
-    margin: 5vw 10vw 10vw 10vw;
+    padding: 5vw 10vw 10vw 10vw;
+    background: no-repeat linear-gradient(#434343 5%, black);
   }
   
   main > p {

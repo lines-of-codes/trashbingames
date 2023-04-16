@@ -14,3 +14,15 @@ import Footer from '../../components/footer.svelte';
 <slot></slot>
 
 <Footer />
+
+<style>
+:global(h1) {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+:global(h2) {
+  font-size: 2em;
+  margin: 0;
+}
+</style>

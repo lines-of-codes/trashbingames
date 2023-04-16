@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: no-repeat linear-gradient(to bottom, #000000 25%, #434343 50%, #000000 75%);
+    background: no-repeat linear-gradient(to bottom, #434343 50%, #000000 99%);
   }
   
   h1, header p {
@@ -72,7 +72,7 @@
 <main>
   <section id="watchtower">
     <div>
-      <h1>Watchtower</h1>
+      <h2>Watchtower</h2>
       <p>
         A comedy, fantasy, futuristic, classic, action, horror game.
       </p>

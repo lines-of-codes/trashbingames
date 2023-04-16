@@ -6,13 +6,74 @@
     <div>A little funny horror game.</div>
   </section>
   <section id="description">
-    <div id="descriptionBackground"></div>
-    <div id="descriptionContent">
+    <div id="descriptionBackground" class="sectionbackground"></div>
+    <div id="descriptionContent" class="sectioncontent">
       <div id="descriptionText">
-        <h2>The Secret behind the Samalakkak National Park</h2>
+        <h2>The Secret behind the National Park</h2>
         <div>Find the secret behind this National Park, What's in there?</div>
       </div>
       <img id="descriptionImage" src="images/WatchtowerNationalParkScreenshot.png" alt="Samalakkak National Park" />
+    </div>
+  </section>
+  <section id="beauty">
+    <div id="beautifulBackground" class="sectionbackground"></div>
+    <div id="beautifulContent" class="sectioncontent">
+      <img id="beautifulImage" src="images/WatchtowerMountainScreenshot.png" alt="Samalakkak National Park" />
+      <div id="beautifulText">
+        <h2>The Secret behind the National Park</h2>
+        <div>Find the secret behind this National Park, What's in there?</div>
+      </div>
+    </div>
+  </section>
+  <section id="systemrequirements">
+    <div id="requirementsBackground" class="sectionbackground"></div>
+    <div id="requirementsContent" class="sectioncontent">
+      <h1>System Requirements</h1>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Minimum</td>
+            <td>Recommended</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>OS</td>
+            <td>64-bit Windows 7 and newer</td>
+            <td>64-bit Windows 7 and newer</td>
+          </tr>
+          <tr>
+            <td>CPU</td>
+            <td>5th Gen Intel CPU equivalent or higher</td>
+            <td>7th Gen Intel Core i3 or equivalent or higher</td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td>2GB</td>
+            <td>4GB</td>
+          </tr>
+          <tr>
+            <td>Storage</td>
+            <td>1GB</td>
+            <td>1GB</td>
+          </tr>
+          <tr>
+            <td>DirectX</td>
+            <td colspan="2">DirectX 11</td>
+          </tr>
+          <tr>
+            <td>Languages</td>
+            <td colspan="2">
+            Voice: English; Text: English
+            </td>
+          </tr>
+          <tr>
+            <td>Note</td>
+            <td colspan="2">Minimum specification tested on Bodhi Linux at Extremely Low quality mode.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
   <section id="download">
@@ -46,52 +107,87 @@ main section {
   align-items: center;
 }
 
-#description {
+#description, #systemrequirements, #beauty {
   position: relative;
 }
 
-#descriptionBackground {
+.sectionbackground {
   position: absolute;
   top: 0;
   left: 0;
-  background: no-repeat url("/images/WatchtowerNationalParkScreenshot.png");
   background-size: cover;
   background-position: center;
-  filter: blur(5px) brightness(0.5);
   width: 100%;
   height: 100%;
   z-index: 1;
 }
 
-#descriptionContent {
+#descriptionBackground {
+  background: no-repeat url("/images/WatchtowerNationalParkScreenshot.png");
+  filter: brightness(0.5);
+}
+
+.sectioncontent {
   display: flex;
-  justify-content: space-between;
   text-align: left;
   gap: none;
   padding: 10vw;
   z-index: 2;
 }
 
-#descriptionText {
+#descriptionContent, #beautifulContent {
+  justify-content: space-between;
+}
+
+#descriptionText, #beautifulText {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-#descriptionImage {
+#descriptionImage, #beautifulImage {
   aspect-ratio: 16 / 9;
   width: 25vw;
 }
 
+#beautifulBackground {
+  background: no-repeat url("/images/WatchtowerMountainScreenshot.png");
+  filter: brightness(0.5);
+}
+
 @media only screen and (max-width: 980px) {
-  #descriptionContent {
+  #descriptionContent, #beautifulContent {
     flex-direction: column;
     gap: 1em;
   }
   
-  #descriptionImage {
+  #descriptionImage, #beautifulImage {
     width: unset;
   }
+}
+
+#requirementsBackground {
+  background: no-repeat url("/images/WatchtowerFlowerScreenshot.png");
+  filter: brightness(0.5) blur(5px);
+}
+
+#requirementsContent {
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead tr, tbody tr td:first-child {
+  background: rgba(100, 100, 100, 0.5);
+}
+
+td {
+  padding: 5px 10px;
+  border: 1px solid darkgray;
 }
 
 #download {

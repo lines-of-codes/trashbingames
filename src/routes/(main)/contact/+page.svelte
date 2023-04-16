@@ -2,6 +2,10 @@
 
 <main>
   <h1>My Socials</h1>
+  <p>
+    Want to join me in the game development journey?<br/>
+    Want to ask for something? Contact me in one of the ways below.
+  </p>
   <div class="socials">
     <div class="social">
       <a href="mailto:LinesOfCodes@proton.me">
@@ -30,22 +34,17 @@
 }
 
 main {
-  min-height: 50vh;
+  min-height: 55vh;
   background: black;
   text-align: center;
   padding: 5vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3em;
-}
-
-h2 {
-  margin: 0;
-  font-size: 2em;
 }
 
 a {
@@ -57,7 +56,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
 }
 
 .social {
@@ -79,5 +77,11 @@ a {
 
 .social:hover .subtitle {
   opacity: 1;
+}
+
+@media only screen and (any-hover: none) {
+  .social .subtitle {
+    opacity: 1;
+  }
 }
 </style>

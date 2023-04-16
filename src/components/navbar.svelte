@@ -31,8 +31,6 @@ onMount(() => {
   {#if displaylist}
   <div id="navlist" transition:fly={{x: window.innerWidth, opacity: 1}}>
     <a href="/">Home</a>
-    <a href="#">Games</a>
-    <a href="#">Join us</a>
     <a href="/contact">Contact</a>
     <a href="/about">About</a>
   </div>
