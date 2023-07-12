@@ -20,8 +20,8 @@
     <div id="beautifulContent" class="sectioncontent">
       <img id="beautifulImage" src="images/WatchtowerMountainScreenshot.png" alt="Samalakkak National Park" />
       <div id="beautifulText">
-        <h2>The Secret behind the National Park</h2>
-        <div>Find the secret behind this National Park, What's in there?</div>
+        <h2>Travel through the amazing atmospehere</h2>
+        <div>Feel the beauty of nature.</div>
       </div>
     </div>
   </section>
