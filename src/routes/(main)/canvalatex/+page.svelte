@@ -31,8 +31,8 @@
     <section id="legal">
         <h1>Legal Stuff</h1>
         <div>
-            <a href="/canvalatex/terms">Terms and conditions</a>
-            <a href="/canvalatex/privacy-policy">Privacy Policy</a>
+            <a href="/canvalatex/terms#terms">Terms and conditions</a>
+            <a href="/canvalatex/terms#privacy">Privacy Policy</a>
         </div>
     </section>
 </main>
