@@ -1,25 +1,27 @@
-<script></script>
+<script>
+  import { t } from '$lib/translations';
+</script>
 
 <main>
-  <h1>My Socials</h1>
+  <h1>{$t("contact.title")}</h1>
   <p>
-    Want to join me in the game development journey?<br/>
-    Want to ask for something? Contact me in one of the ways below.
+    {$t("contact.description1")}<br/>
+    {$t("contact.description2")}
   </p>
   <div class="socials">
     <div class="social">
       <a href="mailto:LinesOfCodes@proton.me">
-        <h2>Email</h2>
+        <h2>{$t("contact.email")}</h2>
         <div class="subtitle">LinesOfCodes@proton.me</div>
       </a>
     </div>
     <div class="social">
-      <h2>Discord</h2>
-      <div class="subtitle">GameCreator#8053</div>
+      <h2>{$t("contact.discord")}</h2>
+      <div class="subtitle">gamecreator</div>
     </div>
     <div class="social">
       <a href="https://twitter.com/trashbin_trash" target="_blank" rel="noreferrer">
-        <h2>Twitter</h2>
+        <h2>{$t("contact.x")}</h2>
         <div class="subtitle">@trashbin_trash</div>
       </a>
     </div>
@@ -27,12 +29,6 @@
 </main>
 
 <style>
-:global(body) {
-  margin: 0;
-  color: white;
-  font-family: Inter, sans-serif;
-}
-
 main {
   min-height: 55vh;
   background: black;

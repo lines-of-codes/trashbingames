@@ -1,16 +1,18 @@
 <script>
-export let titleFont = "Staatliches, Inter, sans-serif";
+  import { t } from '$lib/translations';
+  
+  export let titleFont = "Staatliches, Inter, sans-serif";
 </script>
 
 <footer>
   <h2 class="studiotitle" style={`font-family: ${titleFont};`}>Trashbin Games</h2>
   <div id="footerelements">
-    <a href="/">Home</a>
-    <a href="/contact">Contact</a>
-    <a href="/about">About</a>
+    <a href="/">{$t('common.home')}</a>
+    <a href="/contact">{$t('common.contact')}</a>
+    <a href="/about">{$t('common.about')}</a>
   </div>
   <div id="finalwords">
-    Made with ❤️ by Trashbin Games and its supporter.
+    {$t('common.footerLastWords')}
   </div>
 </footer>
 

@@ -1,7 +1,11 @@
+<script>
+  import { t } from '$lib/translations';
+</script>
+
 <header>
   <div>
     <h1>Trashbin Games</h1>
-    <p>We make trash games.</p>
+    <p>{$t('common.slogan')}</p>
   </div>
 </header>
 
@@ -31,16 +35,13 @@
 
 <style>
   :global(body) {
-    font-family: Inter, sans-serif;
-    margin: 0;
-    color: white;
     min-height: 90vh;
     text-align: center;
   }
   
   header {
     background: linear-gradient(black, #434343);
-    font-family: Staatliches, Inter, sans-serif;
+    font-family: var(--headerFont), var(--bodyFont), sans-serif;
     height: 25vh;
     display: flex;
     flex-direction: column;

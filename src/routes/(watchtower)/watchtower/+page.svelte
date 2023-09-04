@@ -1,9 +1,13 @@
-<script></script>
+<script>
+  import { t } from '$lib/translations';
+</script>
 
 <main>
   <section id="introbanner">
     <h1 id="gametitle">Watchtower</h1>
-    <div>A little funny horror game.</div>
+    <div>
+      {$t('games.watchtower.description')}
+    </div>
   </section>
   <section id="description">
     <div id="descriptionBackground" class="sectionbackground"></div>
@@ -82,16 +86,11 @@
       The game is in development and is not available for public testing yet.
       Do contact me if you wanted to get the private testing build.
     </p>
+    <button on:click={() => window.location.href = "/contact"}>Contact</button>
   </section>
 </main>
 
 <style>
-:global(body) {
-  color: white;
-  margin: 0;
-  font-family: Inter, sans-serif;
-}
-
 main section {
   min-height: 75vh;
   background-size: cover;
@@ -99,7 +98,7 @@ main section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Amita, Inter, sans-serif;
+  font-family: Amita, var(--bodyFont), sans-serif;
 }
 
 #introbanner {
@@ -204,5 +203,19 @@ h1 {
 h2 {
   font-size: 2em;
   margin: 0;
+}
+
+button {
+  font: inherit;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 7px;
+  background: rgba(75, 75, 75, 0.2);
+  color: white;
+  transition: 250ms;
+}
+
+button:hover {
+  background: rgba(75, 75, 75, 0.5);
 }
 </style>
