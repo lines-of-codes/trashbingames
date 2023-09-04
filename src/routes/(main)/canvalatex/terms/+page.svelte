@@ -41,9 +41,16 @@
 	</p>
 	<p>
 		CanvaLaTeX is a free Canva app allowing users to add mathematical expressions into their Canva
-		designs. CanvaLaTeX works by rendering LaTeX expressions using KaTeX (A JavaScript library,
-		covered by MIT License), and using <code>dom-to-image</code> (A JavaScript library, covered by MIT
+		designs. CanvaLaTeX works by rendering LaTeX expressions using <a href="https://github.com/KaTeX/KaTeX" target="_blank" rel="noopener noreferrer">KaTeX</a> (A JavaScript library,
+		covered by MIT License), and using <a href="https://github.com/tsayen/dom-to-image" target="_blank" rel="noopener noreferrer"><code>dom-to-image</code></a> (A JavaScript library, covered by MIT
 		License) to convert them to an image and add it to the user's design.
+	</p>
+	<p>
+		Using CanvaLaTeX, which is an extension to Canva, you will also need to abide by <a
+			href="https://www.canva.com/policies/terms-of-use/"
+			target="_blank"
+			rel="noopener noreferrer">Canva's Terms of Use.</a
+		>
 	</p>
 	<p>CanvaLaTeX is made solely by one person, "I" refers to the maker of CanvaLaTeX.</p>
 	<p>By using CanvaLaTeX, generally, you will only be required to accept Canva's Terms of Use.</p>

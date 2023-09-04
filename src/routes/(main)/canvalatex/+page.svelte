@@ -41,7 +41,7 @@
     header {
         text-align: center;
         color: black;
-        padding: 15vw 0;
+        padding: 15vh 0;
     }
 
     header > h1 {
@@ -60,7 +60,7 @@
 
     section {
         background: linear-gradient(to right, #101010, #202020, #101010);
-        padding: 10vw 10vh;
+        padding: 10vh 10vw;
     }
 
     a {

@@ -1,8 +1,13 @@
 <main>
     <h1>Changes of Terms and Privacy Policy</h1>
-    <p>
-        Since creation, There are no major changes to the Terms and Conditions and Privacy Policy.
-    </p>
+        <div>
+            <h2>Change #0: Terms of Service</h2>
+            <p>Updated on: 4th September 2023</p>
+            <ul>
+                <li>Add a link to KaTeX and dom-to-image for reference.</li>
+                <li>Add a link to Canva's Terms of Service.</li>
+            </ul>
+        </div>
 </main>
 
 <style>
