@@ -1,3 +1,21 @@
+<svelte:head>
+	<title>Terms and Policies - LaTeX for Canva</title>
+	<meta name="title" content="Terms and Policies - LaTeX for Canva" />
+	<meta name="description" content="Terms and Conditions and Privacy Policy for the LaTeX for Canva app." />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://trashbingames.vercel.app/latexforcanva/terms" />
+	<meta property="og:title" content="Terms and Policies - LaTeX for Canva" />
+	<meta property="og:description" content="Terms and Conditions and Privacy Policy for the LaTeX for Canva app." />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://trashbingames.vercel.app/latexforcanva/terms" />
+	<meta property="twitter:title" content="Terms and Policies - LaTeX for Canva" />
+	<meta property="twitter:description" content="Terms and Conditions and Privacy Policy for the LaTeX for Canva app." />
+</svelte:head>
+
 <main>
 	<p>
 		If you are looking for Terms and Conditions/Privacy Policy change history, please visit <a

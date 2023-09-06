@@ -9,7 +9,21 @@
 </script>
 
 <svelte:head>
-    <title>CanvaLaTeX - Trashbin Games</title>
+    <title>LaTeX for Canva - Trashbin Games</title>
+    <meta name="title" content="LaTeX for Canva - Trashbin Games" />
+	<meta name="description" content="Insert math expressions into your Canva designs." />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://trashbingames.vercel.app/latexforcanva" />
+	<meta property="og:title" content="LaTeX for Canva - Trashbin Games" />
+	<meta property="og:description" content="Insert math expressions into your Canva designs." />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://trashbingames.vercel.app/latexforcanva" />
+	<meta property="twitter:title" content="LaTeX for Canva - Trashbin Games" />
+	<meta property="twitter:description" content="Insert math expressions into your Canva designs." />
 </svelte:head>
 
 <header>
