@@ -45,7 +45,7 @@
 		</div>
 	</section>
 	<section id="canvalatex">
-		<h1>CanvaLaTeX</h1>
+		<h1>LaTeX for Canva</h1>
 		<p>
 			{$t('softwares.canvalatex.tagline')}
 		</p>
