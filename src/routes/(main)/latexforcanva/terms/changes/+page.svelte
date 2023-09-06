@@ -1,5 +1,12 @@
 <main>
     <h1>Changes of Terms and Privacy Policy</h1>
+    <div>
+        <h2>Change #1: Terms of Service and Privacy Policy</h2>
+        <p>Updated on: 6th September 2023</p>
+        <ul>
+            <li>Change "CanvaLaTeX" to "LaTeX for Canva" or "LaTeX Expressions"</li>
+        </ul>
+    </div>
         <div>
             <h2>Change #0: Terms of Service</h2>
             <p>Updated on: 4th September 2023</p>

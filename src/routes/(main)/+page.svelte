@@ -50,7 +50,7 @@
 			{$t('softwares.canvalatex.tagline')}
 		</p>
 		<br />
-		<a href="/canvalatex" class="linkbtn blackborder scale"
+		<a href="/latexforcanva" class="linkbtn blackborder scale"
 			>{$t('common.learnMore')} <i class="bi bi-chevron-right" /></a
 		>
 	</section>

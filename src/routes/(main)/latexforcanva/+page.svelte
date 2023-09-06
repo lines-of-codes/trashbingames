@@ -13,7 +13,7 @@
 </svelte:head>
 
 <header>
-    <h1><div><img src="/images/canva_wordmark_gradient.svg" alt="Canva" /></div>{@html latexLogo}</h1>
+    <h1>{@html latexLogo}<div>for Canva</div></h1>
     <p>{$t("softwares.canvalatex.tagline")}</p>
 </header>
 <main>
@@ -31,8 +31,8 @@
     <section id="legal">
         <h1>Legal Stuff</h1>
         <div>
-            <a href="/canvalatex/terms#terms">Terms and conditions</a>
-            <a href="/canvalatex/terms#privacy">Privacy Policy</a>
+            <a href="/latexforcanva/terms#terms">Terms and conditions</a>
+            <a href="/latexforcanva/terms#privacy">Privacy Policy</a>
         </div>
     </section>
 </main>
@@ -46,16 +46,13 @@
 
     header > h1 {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     header > h1 > div {
-        display: inline-block;
-    }
-
-    header > h1 > div > img {
-        width: 3em;
+        font-size: 1rem;
     }
 
     section {
