@@ -3,7 +3,7 @@
 	import NavBar from '../../components/navbar.svelte';
 	import Footer from '../../components/footer.svelte';
 
-	const titleFont = 'Amita, Staatliches, Inter, sans-serif';
+	const titleFont = "'Special Elite', Staatliches, Inter, sans-serif";
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 	<link
 		href={`https://fonts.googleapis.com/css2?family=${$t(
 			'common.bodyFont'
-		)}:wght@400;700&family=Amita&family=${$t('common.headerFont')}&display=swap`}
+		)}:wght@400;700&family=Special+Elite&family=${$t('common.headerFont')}&display=swap`}
 		rel="stylesheet"
 	/>
 </svelte:head>

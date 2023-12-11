@@ -39,12 +39,19 @@
 		</div>
 		<div />
 		<div class="learnmore">
-			<a href="/watchtower" class="linkbtn"
-				>{$t('common.learnMore')} <i class="bi bi-chevron-right" /></a
-			>
+			<a href="/watchtower" class="linkbtn">
+				{$t('common.learnMore')} <i class="bi bi-chevron-right" />
+			</a>
 		</div>
 	</section>
-	<section id="canvalatex">
+	<section id="dreams">
+		<div>
+			<h1>Dreams</h1>
+			<span>{$t('games.dreams.tagline')}</span>
+		</div>
+		<a href="/dreams" class="linkbtn blackborder scale">{$t('common.learnMore')}</a>
+	</section>
+	<!-- <section id="canvalatex">
 		<h1>LaTeX for Canva</h1>
 		<p>
 			{$t('softwares.canvalatex.tagline')}
@@ -53,7 +60,7 @@
 		<a href="/latexforcanva" class="linkbtn blackborder scale"
 			>{$t('common.learnMore')} <i class="bi bi-chevron-right" /></a
 		>
-	</section>
+	</section> -->
 	<section id="storytailor">
 		<div>
 			<h2>StoryTailor</h2>
@@ -87,7 +94,7 @@
 	}
 
 	#watchtower {
-		background: no-repeat url('/images/WatchtowerScreenshot.png');
+		background: no-repeat url('/images/Watchtower/CaveDay.png');
 		background-size: cover;
 		background-position: center;
 		text-align: left;
@@ -101,9 +108,25 @@
 		align-items: end;
 	}
 
+	#dreams {
+		background: no-repeat url('/images/Dreams/GreenGrassland.png');
+		background-size: cover;
+		background-position: center;
+		color: black;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: column;
+		height: 50vh;
+		text-align: center;
+	}
+
+	/* 
 	#canvalatex {
 		color: black;
+		background-image: url('/images/LaTeX_Math_Cropped_Gradient.png');
 	}
+	*/
 
 	#storytailor {
 		display: flex;
@@ -116,10 +139,6 @@
 	#watchtower .linkbtn:hover {
 		background: rgba(0, 0, 0, 0.25);
 		transform: translateX(5px);
-	}
-
-	#canvalatex {
-		background-image: url("/images/LaTeX_Math_Cropped_Gradient.png");
 	}
 
 	a {
