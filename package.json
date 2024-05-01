@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "latest",
+		"@sveltejs/adapter-cloudflare": "^4.4.0",
 		"@sveltejs/kit": "latest",
 		"@types/katex": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
@@ -30,7 +31,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"katex": "^0.16.8",
-		"sveltekit-i18n": "^2.3.2"
-	}
+		"katex": "^0.16.10",
+		"sveltekit-i18n": "^2.4.2"
+	},
+	"packageManager": "pnpm@9.0.6+sha1.648f6014eb363abb36618f2ba59282a9eeb3e879"
 }
